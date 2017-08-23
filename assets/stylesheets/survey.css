@@ -21,41 +21,18 @@
 
 
 
-/*----------------   drop down ----------------*/
+/*----------------   Form ----------------*/
 
 
-  .drop-down-button:hover {
-    cursor: pointer;
+form{
+  color:black;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
 }
 
-
-.drop-down {
-    position: relative;
-}
-
-
-.drop-down-content {
-    display: none;
-    position: absolute;
-    min-width: 260px;
-    border: 1px solid black;
-    z-index: 1;
-    background: white;
-}
-
-
-.drop-down-content a {
-    color: black;
-    padding: 10px 15px;
-    display: block;
-}
-
-
-.drop-down-content a:hover {
-  background-color: Grey;
-}
-
-
-.drop-down:hover .drop-down-content {
-    display: block;
+.questions {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
 }
