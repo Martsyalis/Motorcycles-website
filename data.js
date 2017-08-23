@@ -1,0 +1,43 @@
+var motorcycles = {};
+motorcycles.data = [
+  {
+    title:
+    type:
+    size:
+    height:
+    price:
+    speed:
+  },
+  {
+    title:
+    type:
+    size:
+    height:
+    price:
+    speed:
+  },
+  {
+    title:
+    type:
+    size:
+    height:
+    price:
+    speed:
+  },
+  {
+    title:
+    type:
+    size:
+    height:
+    price:
+    speed:
+  },
+  {
+    title:
+    type:
+    size:
+    height:
+    price:
+    speed:
+  },
+]
