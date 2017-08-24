@@ -32,27 +32,32 @@
       <h1 id="title1"> Survey</h1>
       <h3> Answer the following questions to find out what motorcycle best suits you</h3>
     </section>
-    <ul class="questions">
+    <form  id="bike-survey">
+      <ol class="questions">
 
-      <li>
-        <p>Whats your height?</p>
-        <form action="">
-          <input type="radio" name="height" value="low"> Lower then 170cm
-          <input type="radio" name="height" value="medium"> 170 to 185cm
-          <input type="radio" name="height" value="high"> Taller then 185cm
-        </form>
-      </li>
 
-      <li>
-        <p>Whats your price range?</p>
-        <form action="">
-          <input type="radio" name="price" value="low"> Lower then 4000$
-          <input type="radio" name="price" value="medium"> 4000$ to 9000$
-          <input type="radio" name="price" value="high"> Upwards of 9000$
-        </form>
-      </li>
+        <li>
+          <p>Whats your height?</p>
+            <select id="height">
+              <option value="low">Lower then 170cm</option>
+              <option value="medium" selected>170 to 185cm</option>
+              <option value="high">Taller then 185cm</option>
+            </select>
+        </li>
 
-      <li>
+
+        <li>
+          <p>Whats your price range?</p>
+            <select id="price">
+              <option value="low">Lower then 4000$</option>
+              <option value="medium" selected>Between 4000 and 9000$</option>
+              <option value="high">Upwards of 9000$</option>
+            </select>
+        </li>
+
+
+
+      <!-- <li>
         <p>What size bike would you like?</p>
         <p>(larger engines mean higher speeds and more stability at the cost of weight and manuvrability)</p>
         <form action="">
@@ -78,10 +83,12 @@
           <input type="radio" name="type" value="medium"> Racing/Sport/Thrill
           <input type="radio" name="type" value="high">Commute/Short Trips/ Everyday Use
         </form>
-      </li>
-    </ul>
+      </li> -->
+    </ol>
 
-    <a href="results.html"><h1> Find out your Perfect motorcycle</h1></a>
+  <button id="survey-button" type="submit" form="bike-survey"> Submit</button>
+
+    </form>
   </section>
 </section>
 
