@@ -26,86 +26,72 @@
 
 
             <!--     Survey        -->
-<header>
-  <h1 id="title1"> Survey</h1>
-</header>
-<section class="survey-main">
-  <section class="survey-column">
-    <section class="survey-head">
+    <header>
+      <h1 id="title1"> Survey</h1>
+    </header>
 
+    <section class="survey-main">
+      <section class="survey-column">
+        <form  id="bike-survey">
+          <ol class="questions">
+            
+            <li>
+              <p>What's your primery use for the bike?</p>
+              <select id="typeValue">
+                <option value="low">Adventure/Offroad</option>
+                <option value="medium" selected>Sport/Racing/Track</option>
+                <option value="high">Commute/Short Trips/ Everyday Use</option>
+              </select>
+            </li>
+
+            <li>
+              <p>What size bike would you like?</p>
+              <p>(larger engines mean higher speeds and more<br> stability at the cost of weight and manuvrability)</p>
+              <select id="sizeValue">
+                <option value="low">Lower then 600cc</option>
+                <option value="medium" selected>600 to 800cc</option>
+                <option value="high">Over 800cc</option>
+              </select>
+            </li>
+
+            <li>
+              <p>Whats your height?</p>
+              <select id="heightValue">
+                <option value="low">Lower then 170cm</option>
+                <option value="medium" selected>170 to 185cm</option>
+                <option value="high">Taller then 185cm</option>
+              </select>
+            </li>
+
+            <li>
+              <p>Whats your price range?</p>
+              <select id="priceValue">
+                <option value="low">Lower then 4000$</option>
+                <option value="medium" selected>Between 4000 and 9000$</option>
+                <option value="high">Upwards of 9000$</option>
+              </select>
+            </li>
+
+            <li>
+              <p>How fast do you want your bike to go?</p>
+              <select id="speedValue">
+                <option value="low">I prefer bicycles</option>
+                <option value="medium" selected> I want to feel comfortable on Autobahn  </option>
+                <option value="high"> Do they have one with jet engines?</option>
+              </select>
+            </li>
+          </ol>
+
+          <button id="survey-button" type="submit" form="bike-survey">Submit</button>
+
+        </form>
+      </section>
     </section>
-    <form  id="bike-survey">
-      <ol class="questions">
-
-        <li>
-          <p>What's your primery use for the bike?</p>
-            <select id="typeValue">
-              <option value="low">Adventure/Offroad</option>
-              <option value="medium" selected>Sport/Racing/Track</option>
-              <option value="high">Commute/Short Trips/ Everyday Use</option>
-            </select>
-        </li>
-
-        <li>
-          <p>What size bike would you like?</p>
-          <p>(larger engines mean higher speeds and more<br> stability at the cost of weight and manuvrability)</p>
-            <select id="sizeValue">
-              <option value="low">Lower then 600cc</option>
-              <option value="medium" selected>600 to 800cc</option>
-              <option value="high">Over 800cc</option>
-            </select>
-        </li>
-
-
-        <li>
-          <p>Whats your height?</p>
-            <select id="heightValue">
-              <option value="low">Lower then 170cm</option>
-              <option value="medium" selected>170 to 185cm</option>
-              <option value="high">Taller then 185cm</option>
-            </select>
-        </li>
-
-
-        <li>
-          <p>Whats your price range?</p>
-            <select id="priceValue">
-              <option value="low">Lower then 4000$</option>
-              <option value="medium" selected>Between 4000 and 9000$</option>
-              <option value="high">Upwards of 9000$</option>
-            </select>
-        </li>
-
-        <li>
-          <p>How fast do you want your bike to go?</p>
-            <select id="speedValue">
-              <option value="low">I prefer bicycles</option>
-              <option value="medium" selected> I want to feel comfortable on Autobahn  </option>
-              <option value="high"> Do they have one with jet engines?</option>
-            </select>
-        </li>
-
-
-
-
-    </ol>
-
-  <button id="survey-button" type="submit" form="bike-survey"> Submit</button>
-
-    </form>
-  </section>
-</section>
-
-
-
 
 
     <footer>
-
-        <p> <a href="mailto:pleasedont@sample.com"> tell us about your ride.</a></p>
-
+      <p><a href="mailto:pleasedont@sample.com"> tell us about your ride.</a></p>
     </footer>
-
 
   </body>
 </html>

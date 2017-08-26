@@ -1,6 +1,3 @@
-
-
-
 var data = {};
 
 data.motorcycles = [
@@ -13,13 +10,12 @@ data.motorcycles = [
     sizeValue: "medium",
     height: "medium",
     heightValue: "medium",
-    price: "7000$",
+    price: "$7000",
     priceValue: "medium",
     speed: "0 to 60mph in 3.3s",
     speedValue: "high",
     image: "./assets/pics/sv.jpg"
   },
-
   {
     id: "ninja300",
     title:  "Kawasaki Ninja 300",
@@ -29,14 +25,12 @@ data.motorcycles = [
     sizeValue: "low",
     height: "low",
     heightValue:"low",
-    price: "5700$",
+    price: "$5700",
     priceVlaue: "low",
     speed: "0 to 60mph in 5.6s",
     speedValue: "low",
     image: "./assets/pics/ninja300.jpg"
-
   },
-
   {
     id: "klr650",
     title:  "Kawasaki KLR 650",
@@ -46,14 +40,12 @@ data.motorcycles = [
     sizeValue: "medium",
     height: "high",
     heightValue:"high",
-    price: "6500$",
+    price: "$6500",
     priceVlaue: "medium",
     speed: "0 to 60mph in 5.4s",
     speedValue: "low",
     image: "./assets/pics/klr650.jpg"
-
   },
-
   {
     id: "v-strom",
     title:  "Suzuki V-Strom 650",
@@ -63,14 +55,12 @@ data.motorcycles = [
     sizeValue: "medium",
     height: "high",
     heightValue:"high",
-    price: "8400$",
+    price: "$8400",
     priceVlaue: "high",
     speed: "0 to 60mph in 3.3s",
     speedValue: "high",
     image: "./assets/pics/v-strom.jpg"
-
   },
-
   {
     id: "triumph-t120",
     title:  "Triumph Bonneville T100",
@@ -80,14 +70,12 @@ data.motorcycles = [
     sizeValue: "high",
     height: "medium",
     heightValue:"medium",
-    price: "11500$",
+    price: "$11500",
     priceVlaue: "high",
     speed: "0 to 60mph in 3.8s",
     speedValue: "medium",
     image: "./assets/pics/bonneville.jpg"
-
   },
-
   {
     id: "triumph-triple",
     title:  "Triumph Speed Triple",
@@ -97,14 +85,12 @@ data.motorcycles = [
     sizeValue: "high",
     height: "medium",
     heightValue:"medium",
-    price: "14900$",
+    price: "$14900",
     priceVlaue: "high",
     speed: "0 to 60mph in 2.7s",
     speedValue: "high",
     image: "./assets/pics/triple.jpg"
-
   },
-
   {
     id: "yamaha-fz07",
     title:  "Yamaha FZ-07",
@@ -114,38 +100,33 @@ data.motorcycles = [
     sizeValue: "medium",
     height: "low",
     heightValue:"low",
-    price: "7000$",
+    price: "$7000",
     priceVlaue: "medium",
     speed: "0 to 60mph in 3.4s",
     speedValue: "high",
     image: "./assets/pics/fz07.jpg"
-
   },
-
-{
-  id: "yamaha-yzf-r1",
-  title:  "Yamaha YZF R1",
-  type: "sport",
-  typeValue: "high",
-  size: "998cc",
-  sizeValue: "high",
-  height: "medium",
-  heightValue:"medium",
-  price: "15000$",
-  priceVlaue: "high",
-  speed: "0 to 60mph in 2.6s",
-  speedValue: "high",
-  image: "./assets/pics/r1.jpg"
-},
-
+  {
+    id: "yamaha-yzf-r1",
+    title:  "Yamaha YZF R1",
+    type: "sport",
+    typeValue: "high",
+    size: "998cc",
+    sizeValue: "high",
+    height: "medium",
+    heightValue:"medium",
+    price: "$15000",
+    priceVlaue: "high",
+    speed: "0 to 60mph in 2.6s",
+    speedValue: "high",
+    image: "./assets/pics/r1.jpg"
+  }
 ];
-
 
 data.questions = [
   {
     key: "typeValue",
     weight: 7
-
   },
   {
     key: "sizeValue",
@@ -163,5 +144,4 @@ data.questions = [
     key: "speedValue",
     weight: 3
   }
-
 ];

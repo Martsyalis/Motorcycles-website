@@ -30,9 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
   line-height: 1;
-  position: relative;
-  background-image: url("../pics/background2.jpg");
-  background-size: cover;
+
 }
 ol, ul {
   list-style: none;
@@ -52,19 +50,21 @@ table {
 
 /*----------------------- General ---------------- */
 
-body{
+body {
   color:black;
   font-size: 12px;
   font-family: "Roboto", sans-serif;
   position: relative;
+  background-image: url("../pics/background2.jpg");
+  background-size: cover;
 }
 
-a{
+a {
   text-decoration: none;
   color: black;
 }
 
-a:hover{
+a:hover {
   color:Grey;
   cursor: pointer;
 }
@@ -72,20 +72,20 @@ a:hover{
 
 /*--------------------- Typography ---------------- */
 
-h1{
+h1 {
   font-weight: bold;
   font-size: 46px;
 }
 
-h2{
+h2 {
   font-size: 20px;
 }
 
-h5{
+h5 {
   font-size: 18px;
 }
 
-p{
+p {
   font-size: 14px;
 }
 
@@ -97,25 +97,22 @@ p{
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-
 }
 
-.nav-ul{
+.nav-ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
 }
-.main-nav li{
+
+.main-nav li {
   display: inline-block;
   padding: 0 10px;
 }
 
-
-
 /*---------------------- Title ---------------- */
 
-.main{
+.main {
   display: flex;
   height: 600px;
   width: 100%;
@@ -123,7 +120,7 @@ p{
   justify-content: center;
 }
 
-.row{
+.row {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -134,14 +131,13 @@ p{
 background-color: rgba(192,192,192,0.7);
 border: 1px solid black;
 height: 50%;
-width: 100%;
 display: flex;
 flex-direction: column;
 justify-content: center;
 }
 
-.hero h1,
-.hero h3{
+.box h1,
+.box h3 {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -150,8 +146,7 @@ justify-content: center;
 
 /*---------------------- Footer ---------------- */
 
-footer{
-
+footer {
   bottom: 5px;
   position: fixed;
   display: flex;
@@ -159,14 +154,16 @@ footer{
   justify-content: flex-end;
   width: 100%;
 }
-footer p{
+
+footer p {
   background-color: rgba(105,105,105,0.6);
 }
 
 /*---------------------- Header ---------------- */
 
-header{
+header {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   margin: 35px 0;
 }
