@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function () {
     imageElement = document.createElement("img");
     imageElement.setAttribute ("src",ratings[i].image);
     parentElement.appendChild(anchorElement);
-    parentElement.appendChild(imageElement);
+    anchorElement.appendChild(imageElement);
   }
 
 

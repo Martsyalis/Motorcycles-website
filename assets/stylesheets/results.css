@@ -14,8 +14,7 @@ header h1{
 }
 
 header h2{
-  margin: 30px;
-  text-indent: 20px;
+  text-indent: 10px;
 }
 
 #bikes {
@@ -28,8 +27,9 @@ header h2{
 
 #bikes a,
 #bikes img{
-
+  margin-bottom: 10px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   padding: 10px;
 }
@@ -37,8 +37,4 @@ header h2{
 #bikes img {
   height: 230px;
   width: 400px;
-}
-
-#bikes a{
-  margin-bottom: 10px;
 }
