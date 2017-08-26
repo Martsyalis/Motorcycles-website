@@ -8,9 +8,9 @@ var values = urlParams.values();
 
 for(value of values) {
   console.log(value);
-  for (var i = 0; i < motorcycles.length; i++) {
-    if (motorcycles[i].id === value) {
-      currentBike = motorcycles[i];
+  for (var i = 0; i < data.motorcycles.length; i++) {
+    if (data.motorcycles[i].id === value) {
+      currentBike = data.motorcycles[i];
 
     }
   }

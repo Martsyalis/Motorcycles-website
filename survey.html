@@ -35,10 +35,29 @@
     <form  id="bike-survey">
       <ol class="questions">
 
+        <li>
+          <p>What's your primery use for the bike?</p>
+            <select id="typeValue">
+              <option value="low">Adventure/Offroad</option>
+              <option value="medium" selected>Sport/Racing/Track</option>
+              <option value="high">Commute/Short Trips/ Everyday Use</option>
+            </select>
+        </li>
+
+        <li>
+          <p>What size bike would you like?</p>
+          <p>(larger engines mean higher speeds and more stability at the cost of weight and manuvrability)</p>
+            <select id="sizeValue">
+              <option value="low">Lower then 600cc</option>
+              <option value="medium" selected>600 to 800cc</option>
+              <option value="high">Over 800cc</option>
+            </select>
+        </li>
+
 
         <li>
           <p>Whats your height?</p>
-            <select id="height">
+            <select id="heightValue">
               <option value="low">Lower then 170cm</option>
               <option value="medium" selected>170 to 185cm</option>
               <option value="high">Taller then 185cm</option>
@@ -48,42 +67,25 @@
 
         <li>
           <p>Whats your price range?</p>
-            <select id="price">
+            <select id="priceValue">
               <option value="low">Lower then 4000$</option>
               <option value="medium" selected>Between 4000 and 9000$</option>
               <option value="high">Upwards of 9000$</option>
             </select>
         </li>
 
+        <li>
+          <p>How fast do you want your bike to go?</p>
+            <select id="speedValue">
+              <option value="low">I prefer bicycles</option>
+              <option value="medium" selected> I want to feel comfortable on Autobahn  </option>
+              <option value="high"> Do they have one with jet engines?</option>
+            </select>
+        </li>
 
 
-      <!-- <li>
-        <p>What size bike would you like?</p>
-        <p>(larger engines mean higher speeds and more stability at the cost of weight and manuvrability)</p>
-        <form action="">
-          <input type="radio" name="size" value="low"> smaller then 500cc
-          <input type="radio" name="size" value="medium"> between 500 and 800cc
-          <input type="radio" name="size" value="high"> larger then 800cc
-        </form>
-      </li>
 
-      <li>
-        <p>How much do you value speed?</p>
-        <form action="">
-          <input type="radio" name="speed" value="low"> Moderetly
-          <input type="radio" name="speed" value="medium"> A lot
-          <input type="radio" name="speed" value="high"> Crucial
-        </form>
-      </li>
 
-      <li>
-        <p>What's your primery use for the bike?</p>
-        <form action="">
-          <input type="radio" name="type" value="low"> Adventure/Offroad
-          <input type="radio" name="type" value="medium"> Racing/Sport/Thrill
-          <input type="radio" name="type" value="high">Commute/Short Trips/ Everyday Use
-        </form>
-      </li> -->
     </ol>
 
   <button id="survey-button" type="submit" form="bike-survey"> Submit</button>

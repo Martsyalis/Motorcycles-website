@@ -16,11 +16,7 @@
   justify-content: flex-start;
 }
 
-/*.wraper{
-  display: flex;
-  flex-direction: column;
-  justify-content:space-around;
-}*/
+
 
 header{
   display: flex;
@@ -28,15 +24,18 @@ header{
 }
 
 
-.properties li{
+ul {
+  margin-top: 35px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
-  height: 30px;
-  min-width: 300px;
   font-size: 24px;
-  list-style-type: circle;
+
 }
- .properties li h2{
-   padding: 0 5px;
- }
+
+#bikes a{
+
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}

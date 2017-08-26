@@ -1,17 +1,21 @@
 
-var bikeArray = ["height", "price"];
+var questionKeys = data.questions.map(function(question){
+  return question.key;
+
+});
 
 
 var listener =  function (e) {
   e.preventDefault();
-  var answersArray = bikeArray.map(function(currentId) {
+  var answersArray = questionKeys.map(function(currentId) {
     return e.target[currentId].value;
   });
 
-  console.log("toString", answersArray.toString());
   console.log("answersArray", answersArray);
+  console.log("toString", answersArray.toString());
 
-  localStorage.setItem("answersArray",answersArray.toString());
+
+  localStorage.setItem("answersString",answersArray.toString());
   window.location.href = './results.html';
 
   // for (var i = 0; i < bikeArray.length; i++) {

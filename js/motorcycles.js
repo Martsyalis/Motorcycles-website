@@ -2,11 +2,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
 var parentElement = document.getElementById("bikes");
 
-for (var i = 0; i < motorcycles.length; i++) {
-  console.log(motorcycles[i]);
+for (var i = 0; i < data.motorcycles.length; i++) {
+  console.log(data.motorcycles[i]);
   var anchorElement = document.createElement("a");
-  anchorElement.setAttribute("href", "details.html?id=" + motorcycles[i].id)
-  var newContent = document.createTextNode(motorcycles[i].title);
+  anchorElement.setAttribute("href", "details.html?id=" + data.motorcycles[i].id)
+  var newContent = document.createTextNode(data.motorcycles[i].title);
   anchorElement.appendChild(newContent);
   parentElement.append(anchorElement);
 
