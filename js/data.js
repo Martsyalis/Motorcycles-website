@@ -15,7 +15,7 @@ data.motorcycles = [
     heightValue: "medium",
     price: "7000$",
     priceValue: "medium",
-    Speed: "0 to 60mph in 3.3s",
+    speed: "0 to 60mph in 3.3s",
     speedValue: "high",
     image: "./assets/pics/sv.jpg"
   },

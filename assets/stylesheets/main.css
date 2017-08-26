@@ -31,6 +31,8 @@ footer, header, hgroup, menu, nav, section {
 body {
   line-height: 1;
   position: relative;
+  background-image: url("../pics/background2.jpg");
+  background-size: cover;
 }
 ol, ul {
   list-style: none;
@@ -91,6 +93,7 @@ p{
 /*---------------------- Navigation ---------------- */
 
 .main-nav {
+  padding: 20px 15px;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -105,7 +108,7 @@ p{
 }
 .main-nav li{
   display: inline-block;
-  padding: 0 8px;
+  padding: 0 10px;
 }
 
 
@@ -128,6 +131,7 @@ p{
 }
 
 .box {
+background-color: rgba(192,192,192,0.7);
 border: 1px solid black;
 height: 50%;
 width: 100%;
@@ -136,8 +140,8 @@ flex-direction: column;
 justify-content: center;
 }
 
-.box h1,
-.box h3{
+.hero h1,
+.hero h3{
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -148,11 +152,21 @@ justify-content: center;
 
 footer{
 
-
-  bottom: 0;
+  bottom: 5px;
   position: fixed;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   width: 100%;
+}
+footer p{
+  background-color: rgba(105,105,105,0.6);
+}
+
+/*---------------------- Header ---------------- */
+
+header{
+  display: flex;
+  justify-content: center;
+  margin: 35px 0;
 }
