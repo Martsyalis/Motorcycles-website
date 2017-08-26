@@ -109,7 +109,7 @@ data.motorcycles = [
     id: "yamaha-fz07",
     title:  "Yamaha FZ-07",
     type: "Standard",
-    typeValue: "medium",
+    typeValue: "high",
     size: "689cc",
     sizeValue: "medium",
     height: "low",
